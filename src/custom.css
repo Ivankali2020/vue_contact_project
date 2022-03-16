@@ -1,0 +1,23 @@
+.navbar-toggler:focus{
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+    transition: .3s all;
+}
+.navbar-toggler:hover{
+    text-decoration: none;
+    outline: aquamarine;
+    color: aquamarine;
+    border-color:aquamarine ;
+}
+
+.offcanvas-end{
+    width: auto;
+}
+
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+
